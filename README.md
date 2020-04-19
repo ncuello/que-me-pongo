@@ -1,1 +1,6 @@
-# que-me-pongo
+# Qué Me Pongo - Primera iteración
+
+## Diagrama de clases
+
+![diagrama de clases](http://www.plantuml.com/plantuml/png/VP71JeGm48RlynHzWDrNC3j2DHYWJS7BNam3TQqfr9IYYSHtjo1GJbwQds_AF_zCBuENpe-TWSR8OI3SgRwLP89QVzZrm-yI2kcLqzAGRXMGM6CTQUQJEzr9f-sHLQeP-tQXFm2g7pkIX5zlrkcv2qTHqvVgcLEHCN4YAyZAXmqac5ynPK5Xaj2A1Rmx7J9E46sRJS4LETOC12seGE1OrfYp4YfMt0igej4-rWIOFxAKbITueXZEF2lP2IgQOhYyxkXll0bqxucpxtOHdygrQb7oUpJpvJNPsUdRcp_V7TBk9QDUvyfY-3zixLSVu1OqFazi41SBbr0OE_CB)
+
