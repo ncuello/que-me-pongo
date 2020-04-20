@@ -34,6 +34,9 @@ public class Borrador {
 	}
 	
 	public Prenda crearPrenda() {
+		if(material == null || colorPrimario == null)
+			throw new NullPointerException("Falta algún campo obligatorio");
+		
 		return new Prenda(tipoPrenda, material, colorPrimario, colorSecundario, trama);
 	}
 }
