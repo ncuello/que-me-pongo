@@ -7,7 +7,7 @@ public class Borrador {
     private Material material;
     private Color colorPrimario;
     private Color colorSecundario;
-	private Trama trama;
+	private Trama trama = Trama.LISA;
 	
 	public Borrador(TipoPrenda tipoPrenda) {
 		this.tipoPrenda = requireNonNull(tipoPrenda, "tipo prenda es obligatorio");
@@ -29,7 +29,7 @@ public class Borrador {
 	}
 	
 	public Borrador especificarTrama(Trama trama) {
-		this.trama = trama;
+		this.trama = trama == null ? Trama.LISA : trama;
 		return this;
 	}
 	
