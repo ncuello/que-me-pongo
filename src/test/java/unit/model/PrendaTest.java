@@ -15,7 +15,7 @@ public class PrendaTest {
     @Test
     public void instanciacionThrowNullPointerExceptionTipoPrendaNull() {
         NullPointerException excepcion = assertThrows(NullPointerException.class, () -> {
-            new Prenda(null, Material.ALGODON, new Color(0, 0, 255), null);
+            new Prenda(null, Material.ALGODON, new Color(0, 0, 255), null, null);
         });
 
         String mensajeEsperado = "tipo prenda es obligatorio";
@@ -26,7 +26,7 @@ public class PrendaTest {
     @Test
     public void instanciacionThrowNullPointerExceptionMaterialNull() {
         NullPointerException excepcion = assertThrows(NullPointerException.class, () -> {
-            new Prenda(TipoPrenda.PANTALON, null, new Color(0, 0, 255), null);
+            new Prenda(TipoPrenda.PANTALON, null, new Color(0, 0, 255), null, null);
         });
 
         String mensajeEsperado = "material es obligatorio";
@@ -37,7 +37,7 @@ public class PrendaTest {
     @Test
     public void instanciacionThrowNullPointerExceptionColorPrimarioNull() {
         NullPointerException excepcion = assertThrows(NullPointerException.class, () -> {
-            new Prenda(TipoPrenda.PANTALON, Material.JEAN, null, new Color(140, 0, 200));
+            new Prenda(TipoPrenda.PANTALON, Material.JEAN, null, new Color(140, 0, 200), null);
         });
 
         String mensajeEsperado = "color primario es obligatorio";
