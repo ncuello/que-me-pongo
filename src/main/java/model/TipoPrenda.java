@@ -7,7 +7,9 @@ public enum TipoPrenda {
 
     CAMISA(Categoria.PARTE_SUPERIOR),
 
-    REMERA(Categoria.PARTE_SUPERIOR),
+    CHOMBA(Categoria.PARTE_SUPERIOR),
+
+	REMERA(Categoria.PARTE_SUPERIOR),
 
     BLUSA(Categoria.PARTE_SUPERIOR),
 
@@ -17,8 +19,8 @@ public enum TipoPrenda {
 
     SOMBRERO(Categoria.ACCESORIO),
 
-    ANTEOJOS(Categoria.ACCESORIO);
-
+    ANTEOJOS(Categoria.ACCESORIO); 
+    
     private Categoria categoria;
 
     TipoPrenda(Categoria categoria) {
