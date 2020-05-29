@@ -1,5 +1,7 @@
 package model;
 
+import model.criterioClima.Criterio;
+
 import static java.util.Objects.requireNonNull;
 
 public class Borrador {
@@ -8,6 +10,7 @@ public class Borrador {
     private Color colorPrimario;
     private Color colorSecundario;
 	private Trama trama = Trama.LISA;
+	private Criterio criterio;
 	
 	public Borrador(TipoPrenda tipoPrenda) {
 		this.tipoPrenda = requireNonNull(tipoPrenda, "tipo prenda es obligatorio");
@@ -32,11 +35,16 @@ public class Borrador {
 		this.trama = trama == null ? Trama.LISA : trama;
 		return this;
 	}
-	
+
+	public Borrador especificarCriterio(Criterio criterio) {
+		this.criterio = criterio;
+		return this;
+	}
+
 	public Prenda crearPrenda() {
 		if(material == null || colorPrimario == null)
 			throw new NullPointerException("Falta algún campo obligatorio");
 		
-		return new Prenda(tipoPrenda, material, colorPrimario, colorSecundario, trama);
+		return new Prenda(tipoPrenda, material, colorPrimario, colorSecundario, trama, criterio);
 	}
 }
