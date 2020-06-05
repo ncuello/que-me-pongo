@@ -1,6 +1,6 @@
-# Qué Me Pongo - Segunda iteración
+# Qué Me Pongo - Quinta iteración
 
-Adjunta en una imagen se encuentra el diagrama de clases de la tercera iteración
+A continuación adjunto los diagramas y clases en papel.
 
 ## Diagrama de clases
 
