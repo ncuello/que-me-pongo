@@ -1,11 +1,11 @@
-# Qué Me Pongo - Quinta iteración
+# Qué Me Pongo - Sexta iteración
 
 A continuación adjunto los diagramas y clases en papel.
 
 ## Diagrama de clases
 
-![Diagrama de clases](Diagrama_quinta_iter.jpeg)
+![Diagrama de clases](Diagrama-sexta-iter.jpeg)
 
 ## Clases
-[Usuario](Usuario.jpeg)
-[Guardarropa](Guardarropa.jpeg)
+[Observers](Observer.jpeg)
+[Batch](Barch.jpeg)
